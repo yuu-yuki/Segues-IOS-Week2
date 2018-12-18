@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		ACDA9C9B21C8F05B00DF2DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA9C9A21C8F05B00DF2DA8 /* AppDelegate.swift */; };
-		ACDA9C9D21C8F05B00DF2DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA9C9C21C8F05B00DF2DA8 /* ViewController.swift */; };
+		ACDA9C9D21C8F05B00DF2DA8 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA9C9C21C8F05B00DF2DA8 /* GrayViewController.swift */; };
 		ACDA9CA021C8F05B00DF2DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDA9C9E21C8F05B00DF2DA8 /* Main.storyboard */; };
 		ACDA9CA221C8F05E00DF2DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDA9CA121C8F05E00DF2DA8 /* Assets.xcassets */; };
 		ACDA9CA521C8F05E00DF2DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDA9CA321C8F05E00DF2DA8 /* LaunchScreen.storyboard */; };
+		ACDA9CAD21C8F20A00DF2DA8 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA9CAC21C8F20A00DF2DA8 /* YellowViewController.swift */; };
+		ACDA9CB021C8F28500DF2DA8 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA9CAF21C8F28500DF2DA8 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACDA9C9721C8F05B00DF2DA8 /* Segues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDA9C9A21C8F05B00DF2DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACDA9C9C21C8F05B00DF2DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDA9C9C21C8F05B00DF2DA8 /* GrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
 		ACDA9C9F21C8F05B00DF2DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACDA9CA121C8F05E00DF2DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACDA9CA421C8F05E00DF2DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACDA9CA621C8F05E00DF2DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDA9CAC21C8F20A00DF2DA8 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		ACDA9CAF21C8F28500DF2DA8 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				ACDA9C9A21C8F05B00DF2DA8 /* AppDelegate.swift */,
-				ACDA9C9C21C8F05B00DF2DA8 /* ViewController.swift */,
+				ACDA9C9C21C8F05B00DF2DA8 /* GrayViewController.swift */,
 				ACDA9C9E21C8F05B00DF2DA8 /* Main.storyboard */,
 				ACDA9CA121C8F05E00DF2DA8 /* Assets.xcassets */,
 				ACDA9CA321C8F05E00DF2DA8 /* LaunchScreen.storyboard */,
 				ACDA9CA621C8F05E00DF2DA8 /* Info.plist */,
+				ACDA9CAC21C8F20A00DF2DA8 /* YellowViewController.swift */,
+				ACDA9CAF21C8F28500DF2DA8 /* GreenViewController.swift */,
 			);
 			path = Segues;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACDA9C9D21C8F05B00DF2DA8 /* ViewController.swift in Sources */,
+				ACDA9CB021C8F28500DF2DA8 /* GreenViewController.swift in Sources */,
+				ACDA9C9D21C8F05B00DF2DA8 /* GrayViewController.swift in Sources */,
+				ACDA9CAD21C8F20A00DF2DA8 /* YellowViewController.swift in Sources */,
 				ACDA9C9B21C8F05B00DF2DA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

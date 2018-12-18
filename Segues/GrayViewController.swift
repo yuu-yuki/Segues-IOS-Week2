@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    //Quay lai man hinh dau tien
+    @IBAction func unWindToGray(unwindSegue: UIStoryboardSegue){
+        
+    }
+    
 }
+
 
